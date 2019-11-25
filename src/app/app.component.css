@@ -1,0 +1,12 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: large;
+}
