@@ -1,5 +1,6 @@
-<h1>{{name}} Frontend web developer</h1>
-<div>
+<div class="wrapper">
+<div class="profilePhoto">
+    <h1>{{name}} Frontend web developer</h1>
     <img sizes="(max-width: 480px) 100vw, (max-width: 814px) 75vw, 480px"
         src="assets/images/profile_hp0oqg_c_scale,w_814.jpg" srcset="
     assets/images/profile_hp0oqg_c_scale,w_200.jpg 200w,
@@ -14,4 +15,17 @@
     assets/images/profile_hp0oqg_c_scale,w_785.jpg 785w,
     assets/images/profile_hp0oqg_c_scale,w_807.jpg 807w,
     assets/images/profile_hp0oqg_c_scale,w_814.jpg 814w" alt="My profile picture">
+</div>
+<div class="personalDetails">
+    <p>
+        I am a 'self taught' Frontend Web Developer on a continuous learning path. Comfortable
+        doing projects using: Html, CSS, Javascript, Angular among other technologies.       
+
+    </p>
+    <ul class="langTechs" class="languagesUsed" >
+        <li class="langUsed" *ngFor="let lang of languages">
+            {{lang}}
+        </li>
+    </ul>
+</div>
 </div>

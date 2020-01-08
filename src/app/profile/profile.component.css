@@ -1,7 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
 h1 {
     text-align: center;
+    margin: 5% auto;
+    font-size: x-large;
 }
 img {
     display: block;
     margin: auto;
+    width: 100%;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+ul.languagesUsed {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 24px;
+    list-style: none;
+}
+.profilePhoto {
+    width: 100%;
+    margin-top: 5%;
+}
+.personalDetails {
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 860px) {
+    .profilePhoto {
+        width: 45%;
+    }
+    .personalDetails {
+        width: 45%;
+    }
+
 }
