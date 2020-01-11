@@ -24,7 +24,7 @@ p {
     margin: auto;
 }
 
-@media only screen and (min-width: 470px){
+@media only screen and (min-width: 470px){  
     .contactMe {
         width: 90%;
     margin: auto;
@@ -48,6 +48,17 @@ p {
 .contactMe {
     width: 45%;
 }
+.contactMe::before{
+    position: absolute;
+    content: "Javascript, Html, Css , Angular";
+    background-color: #e0e8e0;
+    box-shadow: 1px 1px 11px 14px slategrey;
+    color: blue;
+    text-align: center;
+    width: 54%;
+    transform: rotate(-22deg);
+    top: 307px;
+    } 
 form {
     width: 45%;
 }
