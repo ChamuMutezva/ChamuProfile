@@ -59,7 +59,30 @@ p {
     transform: rotate(-22deg);
     top: 307px;
     } 
+    .contactMe::after{
+        position: absolute;
+        content: "Will be studying React soon";
+        background-color: #e0e8e0;
+        box-shadow: 1px 1px 11px 14px slategrey;
+        color: blue;
+        text-align: center;
+        width: 54%;
+        transform: rotate(22deg);
+        top: 813px;
+        } 
+
 form {
     width: 45%;
 }
+}
+
+@media only screen and (min-width: 960px) {
+    .contactMe::before{
+        transform: rotate(-19deg);
+    top: 335px;
+     }
+     .contactMe::after {
+        transform: rotate(19deg);
+        top: 868px;
+     }
 }

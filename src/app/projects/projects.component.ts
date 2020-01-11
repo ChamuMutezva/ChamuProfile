@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-
+  listProjects: string[] = ["Rest countries api", "Bookmark Landing page", "Url Shortener", 
+  "Price Component with toggle", "Four Card Feature Section", "Intro Component Sign up form"];
   constructor() { }
 
   ngOnInit() {
