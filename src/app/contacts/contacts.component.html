@@ -1,8 +1,34 @@
-<h2>Contact me using the following mediums</h2>
-<ul>
-    <a href="#"><li>Linked</li></a>
-    <li>Twitter</li>
-    <li>Facebook</li>
-    <li>email</li>
-    <li>Github</li>
-</ul>
+<div class="wrapper">
+    <div class="contactMe">
+        <h2>Contact me using the following mediums</h2>
+        <ul>
+            <li> <a href="https://www.linkedin.com/in/chamumutezva">LinkedIn</a></li>
+            <li><a href="https://twitter.com/ChamuMutezva"> Twitter</a></li>
+            <li>Facebook</li>
+            <li><a href="ckmutezva@gmail.com"> email</a></li>
+            <li><a href="https://github.com/ChamuMutezva"> Github</a> </li>
+        </ul>
+    </div>
+    <form #form="ngForm">
+        <div class="formGroup">
+
+            <p>
+                I am ambitious in Frontweb development ,if you have any request, work to be done or questions,
+                please contact me using the above mediums or ping me using the form below.
+
+            </p>
+
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="name" autocomplete="family-name" required>
+            <input type="email" class="form-control" id="emailAddress" autocomplete="email" required
+                placeholder="email">
+            <input type="text" class="form-control" placeholder="subject" required>
+            <textarea name="msg" class="form-control" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <footer>
+            <p> &copy; 2020 C.K. Mutezva </p>
+        </footer>
+    </form>
+</div>

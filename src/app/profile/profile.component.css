@@ -21,7 +21,9 @@ h1 {
 img {
     display: block;
     margin: auto;
-    width: 100%;
+    width: 85%;
+    border-radius: 20px;
+    box-shadow: 1px 3px 20px 20px lightslategray
 }
 p {
     font-size: 20px;
@@ -38,17 +40,37 @@ ul.languagesUsed {
     width: 100%;
     margin-top: 5%;
 }
+h2 span {
+    text-decoration: line-through red;
+}
 .personalDetails {
     width: 100%;
     text-align: center;
+    /* border: 1px solid; */
+    margin: 10% 5%;
+    padding: 5%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 20px lightslategray
 }
 
-@media only screen and (min-width: 860px) {
+@media only screen and (min-width: 540px) {
+    .profilePhoto {
+        width: 48%;
+    }
+    .personalDetails {
+        width: 48%;
+    }
+
+}
+
+
+@media only screen and (min-width: 917px) {
     .profilePhoto {
         width: 45%;
     }
     .personalDetails {
-        width: 45%;
+        width: 40%;
+    margin-top: 5%;
     }
 
 }
