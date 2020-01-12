@@ -9,7 +9,7 @@
     margin: 10% auto;
     text-align: center;   
     width: 80%;
-    height: 440px;
+    height: 455px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px 12px #a79e9e;
 }
@@ -21,9 +21,21 @@ img {
     box-shadow: 1px 1px 4px 10px #dad7d0;
     margin: 1% auto;
 }
+img:hover{
+    opacity: 0.4;
+}
 h1 {
     margin: 5% auto 0;
+    box-shadow: 1px 19px 7px 5px lightslategrey;
+}
+h3 {
+    margin-bottom: 5%;
 }
 h6 {
     color: indianred;
+}
+p {
+    margin: 5% auto;
+    width: 90%;
+    text-align: center;
 }
