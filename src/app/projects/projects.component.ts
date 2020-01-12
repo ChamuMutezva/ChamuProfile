@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ProjectService } from '../project.service';
+import { ProjectModel } from '../project-model';
 
 @Component({
   //selector: 'app-projects',
@@ -6,11 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  listProjects: string[] = ["Rest countries api", "Bookmark Landing page", "Url Shortener", 
-  "Price Component with toggle", "Four Card Feature Section", "Intro Component Sign up form"];
-  constructor() { }
+
+  listProjects : ProjectModel[];
+
+ 
+  constructor(private projectService: ProjectService) { }
 
   ngOnInit() {
+    this.listProjects = this.projectService.getProjects();
   }
 
 }

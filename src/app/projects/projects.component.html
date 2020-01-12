@@ -1,9 +1,12 @@
 <div class="wrapper">
 
-    <h1>Here is a list of projects that i have done</h1>
-    <div class="myProjects" *ngFor="let project of listProjects">
-        <div>
-            {{project}}
+    <h1>My projects</h1>
+    <div class="myProjects" >
+        <div class="projects"  *ngFor="let project of listProjects">
+            <h3>{{project.name}}</h3>            
+           <a href="{{project.url}}">
+            <img src={{project.image}}  alt="">
+            </a>
         </div>
     </div>
 

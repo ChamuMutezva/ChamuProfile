@@ -1,0 +1,15 @@
+.projects {    
+    padding: 9% 0;
+    margin: 10% auto;
+    text-align: center;   
+    width: 80%;
+    height: 360px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 12px #a79e9e;
+}
+img {
+    min-width: 220px;
+    max-width: 220px;
+    min-width: 50px;
+    min-height: 50px;
+}
