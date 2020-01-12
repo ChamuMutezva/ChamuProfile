@@ -1,15 +1,29 @@
+.myProjects {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(330px , 1fr));
+    margin: auto 3%;  
+    z-index: 1;
+}
 .projects {    
     padding: 9% 0;
     margin: 10% auto;
     text-align: center;   
     width: 80%;
-    height: 360px;
+    height: 440px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px 12px #a79e9e;
 }
 img {
     min-width: 220px;
     max-width: 220px;
-    min-width: 50px;
-    min-height: 50px;
+    max-height: 162px;
+    min-height: 80px;
+    box-shadow: 1px 1px 4px 10px #dad7d0;
+    margin: 1% auto;
+}
+h1 {
+    margin: 5% auto 0;
+}
+h6 {
+    color: indianred;
 }

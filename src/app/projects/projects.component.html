@@ -3,10 +3,14 @@
     <h1>My projects</h1>
     <div class="myProjects" >
         <div class="projects"  *ngFor="let project of listProjects">
-            <h3>{{project.name}}</h3>            
+            <h3>{{project.name}}</h3>
+            <h6>Click image below to liveview project</h6>            
            <a href="{{project.url}}">
             <img src={{project.image}}  alt="">
             </a>
+            <p>
+                {{project.notes}}
+            </p>
         </div>
     </div>
 
