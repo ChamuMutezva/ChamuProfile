@@ -41,7 +41,7 @@ ul.languagesUsed {
     margin-top: 5%;
 }
 h2 span {
-    text-decoration: line-through red;
+    text-decoration: double line-through red;
 }
 .personalDetails {
     width: 100%;

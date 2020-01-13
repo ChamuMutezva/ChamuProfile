@@ -9,23 +9,23 @@
             <li><a href="https://github.com/ChamuMutezva"> Github</a> </li>
         </ul>
     </div>
-    <form #form="ngForm">
+    <form #form="ngForm" method="GET">
         <div class="formGroup">
 
             <p>
-                I am ambitious in Frontweb development ,if you have any request, work to be done or questions,
+                I am ambitious in Frontend web development ,if you have any request, work to be done or questions,
                 please contact me using the above mediums or ping me using the form below.
-                My passion is creating, thriving to be better than yesterday.
+                My passion is creating and thriving to be better than yesterday.
             </p>
 
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="name" autocomplete="family-name" required>
+            <input type="text" class="form-control nameCtrl" placeholder="name" autocomplete="family-name" aria-required="true" required>
             <input type="email" class="form-control" id="emailAddress" autocomplete="email" required
                 placeholder="email">
-            <input type="text" class="form-control" placeholder="subject" required>
+            <input type="text" class="form-control subject" placeholder="subject" required>
             <textarea name="msg" class="form-control" placeholder="message" id="" cols="30" rows="10"></textarea>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" (click)="submitDetails()">Submit</button>
         </div>
         <footer>
             <p> &copy; 2020 C.K. Mutezva </p>
