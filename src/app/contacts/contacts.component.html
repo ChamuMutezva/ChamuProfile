@@ -9,7 +9,7 @@
             <li><a href="https://github.com/ChamuMutezva"> Github</a> </li>
         </ul>
     </div>
-    <form #form="ngForm" name="contactMe" method="POST" data-netlify="true">
+    <form #form="ngForm" name="contactMe" type="file" method="POST" data-netlify="true">
         <div class="formGroup">
 
             <p>
@@ -21,9 +21,9 @@
         </div>
         <div class="form-group">
             <input type="text" class="form-control nameCtrl" placeholder="name" autocomplete="family-name" aria-required="true" required>
-            <input type="email" class="form-control" id="emailAddress" autocomplete="email" required
+            <input type="email" name="email" class="form-control" id="emailAddress" autocomplete="email" required
                 placeholder="email">
-            <input type="text" class="form-control subject" placeholder="subject" required>
+            <input type="text" class="form-control subject" placeholder="subject"name="subject" required>
             <textarea name="msg" class="form-control" placeholder="message" id="msg" cols="30" rows="10"></textarea>
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
