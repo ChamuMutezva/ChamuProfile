@@ -9,7 +9,7 @@
             <li><a href="https://github.com/ChamuMutezva"> Github</a> </li>
         </ul>
     </div>
-    <form #form="ngForm" method="GET">
+    <form #form="ngForm" name="contactMe" method="POST" netlify>
         <div class="formGroup">
 
             <p>
@@ -25,7 +25,7 @@
                 placeholder="email">
             <input type="text" class="form-control subject" placeholder="subject" required>
             <textarea name="msg" class="form-control" placeholder="message" id="msg" cols="30" rows="10"></textarea>
-            <button type="submit" class="btn btn-primary" (click)="submitDetails()">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
         </div>
         <footer>
             <p> &copy; 2020 C.K. Mutezva </p>
