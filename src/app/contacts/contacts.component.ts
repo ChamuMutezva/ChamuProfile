@@ -19,9 +19,9 @@ export class ContactsComponent implements OnInit {
     const nameInput = (<HTMLInputElement>document.querySelector(".nameCtrl")).value.trim();
    const emailInput = (<HTMLInputElement>document.getElementById("emailAddress")).value.trim();  
    let message = (<HTMLInputElement>document.getElementById("msg")).value.trim();
-    const subject = document.querySelector(".subject");
+    const subject = (<HTMLInputElement>document.querySelector(".subject")).value.trim();
    message = "Under construction";
-   alert("Page under Construction");
+   //alert("Page under Construction");
     console.log(nameInput);
     if (nameInput.length <= 0) {
       console.log("Enter name");
@@ -29,6 +29,7 @@ export class ContactsComponent implements OnInit {
     } else {
       console.log(nameInput);
     }
+    window.open("mailto:chamunorwa.kuseri@gmail.com?subject=subject");
     console.log(message);
   }
 
