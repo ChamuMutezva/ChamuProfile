@@ -22,12 +22,19 @@ export class ContactsComponent implements OnInit {
     const subject = (<HTMLInputElement>document.querySelector(".subject")).value.trim();
    message = "Under construction";
    //alert("Page under Construction");
-    console.log(nameInput);
+   // console.log(nameInput);
     if (nameInput.length <= 0) {
       console.log("Enter name");
       return;
     } else {
       console.log(nameInput);
+    }
+
+    if (emailInput.length <= 4) {
+      console.log("Enter a valid email");
+      return;
+    } else {
+      console.log(emailInput);
     }
     window.open("mailto:chamunorwa.kuseri@gmail.com?subject=subject");
     console.log(message);
