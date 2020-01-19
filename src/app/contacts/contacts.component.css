@@ -1,3 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input, textarea {
+    padding: 5%;
+}
 li {
     text-align: center;
     list-style: none;
