@@ -11,7 +11,7 @@ const routes: Routes = [
 {path: 'projects', component: ProjectsComponent},
 {path: 'contacts', component: ContactsComponent},
 {path: '', redirectTo: 'profile', pathMatch: 'full'},
-{path: '**', component: PageNotFoundComponent}
+{path: '**', component: ProfileComponent}
 ];
 
 @NgModule({
