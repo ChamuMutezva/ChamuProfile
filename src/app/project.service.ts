@@ -34,8 +34,8 @@ export class ProjectService {
         name:  "Price Component with toggle",
         image:  "assets/images/ProjectImage/pricingToggle.png",
         url: "https://chamumutezva.github.io/pricing-component-with-toggle-master/",
-        notes: ` Toggle between mothhly subscription and yearly. Used mainly HTML, css
-        snd javascipt
+        notes: ` Toggle between monthly subscription and yearly. Used mainly HTML, css
+        snd javascript
         `
       },
       {
@@ -43,7 +43,7 @@ export class ProjectService {
         image: "assets/images/ProjectImage/fourCardFeature.svg",
         url: "https://preprince-fourcardfeature.netlify.com/",
         notes: `This FourCardFeature project created using Flexbox, CSS,
-        HTML and Javacript
+        HTML and Javascript
         `
       },
       {
@@ -51,7 +51,7 @@ export class ProjectService {
         image: "assets/images/ProjectImage/introComp.png",
         url: "https://chamumutezva.github.io/Intro-component-with-sign-up-form/",
         notes: `Sign up form , i created using HTML, CSS and Javascript. Validation of
-        user inputs and accessibilty taken into consideration.`
+        user inputs and accessibility taken into consideration.`
       }
   
     ]
