@@ -14,7 +14,7 @@ export class ProjectService {
         url: "https://rest-api-countries-angular.netlify.com/",
         notes: `Search for any country in the world or filter countries by continent. 
         Toggle between dark and light theme. The project was created using Angular Framework,
-        Javascript, HTML and CSS`,
+        Javascript, HTML, Typescript and CSS`
       },
       {
         name: "Bookmark Landing page",
