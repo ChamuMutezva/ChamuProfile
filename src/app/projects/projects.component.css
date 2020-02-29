@@ -24,6 +24,10 @@ img {
 img:hover{
     opacity: 0.4;
 }
+h2 {
+    font-size: small;
+}
+
 h1 {
     margin: 5% auto;
     box-shadow: 1px 19px 7px 5px lightslategrey;

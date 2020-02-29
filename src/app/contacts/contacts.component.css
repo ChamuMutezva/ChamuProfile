@@ -12,8 +12,12 @@ li {
     text-decoration: blink;
     margin: 5%;
 }
-.contactMe ul {
-
+.wrapper {
+    margin: 12% auto;
+}
+.contactMe {
+margin: 10% auto;
+padding: 5%;
 }
 
 .form-control {
@@ -33,12 +37,14 @@ p {
     text-align: center;
     width: 80%;
     margin: auto;
+    border-bottom: 1px solid cadetblue;
 }
-
+p:first-child {
+   margin-bottom: 6%; 
+}
 @media only screen and (min-width: 470px){  
     .contactMe {
-        width: 90%;
-    margin: auto;
+        width: 90%;    
     box-shadow: 1px 1px 8px 15px slategrey;
     border-radius: 20px;
     }
@@ -55,11 +61,12 @@ p {
 @media only screen and (min-width: 860px) {
     .wrapper {
         display: flex;
+        margin: auto;
     } 
 .contactMe {
     width: 45%;
 }
-.contactMe::before{
+/*.contactMe::before{
     position: absolute;
     content: "I build Websites including PWA using Javascript, Html, Css , Angular";
     background-color: #e0e8e0;
@@ -81,6 +88,7 @@ p {
         transform: rotate(22deg);
         top: 813px;
         } 
+        */
 
 form {
     width: 45%;
@@ -88,6 +96,9 @@ form {
 }
 
 @media only screen and (min-width: 960px) {
+    .wrapper {
+        width: 80%;
+    }
     .contactMe::before{
         transform: rotate(-19deg);
     top: 335px;

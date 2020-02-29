@@ -1,4 +1,23 @@
 <div class="wrapper">
+
+    <div class="contactMe">
+
+        <p>
+            I am ambitious in Frontend web development ,if you have any request, work to be done or questions,
+            please contact me using the details provided.
+            My passion is creating and thriving to be better than yesterday.
+        </p>
+
+        <p>
+            I build websites using mainly HTML, CSS, Javascript and Angular. Let your website be a Progressive web
+            App - a website that can simply be installed like a native on any medium.
+
+        </p>
+
+    </div>
+
+
+
     <div class="contactMe">
         <h2>Contact me using the following: </h2>
         <ul>
@@ -8,27 +27,11 @@
             <li><a href="mailto:ckmutezva@gmail.com"> email</a></li>
             <li><a href="https://github.com/ChamuMutezva"> Github</a> </li>
         </ul>
-    </div>
-    <form #form="ngForm" name="contactMe" method="POST" netlify>
-        <div class="formGroup">
-
-            <p>
-                I am ambitious in Frontend web development ,if you have any request, work to be done or questions,
-                please contact me using the above mediums or ping me using the form below.
-                My passion is creating and thriving to be better than yesterday.
-            </p>
-
-        </div>
-        <div class="form-group">
-            <input type="text" class="form-control nameCtrl" placeholder="name" autocomplete="family-name" aria-required="true" required>
-            <input type="email" name="email" class="form-control" id="emailAddress" autocomplete="email" required
-                placeholder="email">
-            <input type="text" class="form-control subject" placeholder="subject"name="subject" required>
-            <textarea name="msg" class="form-control" placeholder="message" id="msg" cols="30" rows="10"></textarea>
-            <button type="submit" class="btn btn-primary" (click)="submitDetails()">Submit</button>
-        </div>
         <footer>
             <p> &copy; 2020 C.K. Mutezva </p>
         </footer>
-    </form>
+
+    </div>
+
+
 </div>

@@ -1,18 +1,19 @@
 <div class="wrapper">
 
     <h1>My projects</h1>
-    <div class="myProjects" >
-        <div class="projects"  *ngFor="let project of listProjects">
-            <h3>{{project.name}}</h3>
-            <h6>Click image for a live preview</h6>            
-           <a href="{{project.url}}">
-            <img src={{project.image}}  alt="">
-            </a>
-            <p>
-                {{project.notes}}
-            </p>
+    <div class="container">
+        <h2>Click image for a live preview</h2>
+        <div class="myProjects">           
+            <div class="projects" *ngFor="let project of listProjects">
+                <h3>{{project.name}}</h3>
+
+                <a href="{{project.url}}">
+                    <img src={{project.image}} alt="">
+                </a>
+                <p>
+                    {{project.notes}}
+                </p>
+            </div>
         </div>
     </div>
-
 </div>
-
