@@ -9,6 +9,13 @@ export class ProjectService {
   getProjects(): ProjectModel[] {
     return  [
       {
+        name: "Easybank Landing page",
+        image: "assets/images/ProjectImage/easybank.jpg", 
+        url: "https://chamumutezva.github.io/easybank-landing-page-master/",
+       notes: `Welcome to Easybank, view the various banking services and products online.
+       Created using HTML, CSS , Javascript`
+      },
+      {
         name: "Rest countries api",
         image:  "assets/images/ProjectImage/rest.png",
         url: "https://rest-api-countries-angular.netlify.com/",
@@ -39,6 +46,16 @@ export class ProjectService {
         `
       },
       {
+        name: "Social Media Dashboard",
+        image: "assets/images/ProjectImage/switchboard.jpg",
+        url: "https://chamumutezva.github.io/social-media-dashboard-with-theme-switcher-master/",
+        notes: `A summary of your social activities. Facebook, Twitter, Instagram and Youtube at a glance.
+        An overview of the current day activities - views, likes , retweets e.tc. The project was created mainly
+        using HTML5, CSS3, Javascript, Flexbox , Grid and Sass`
+
+      }
+      ,
+      {
         name: "Four Card Feature Section",
         image: "assets/images/ProjectImage/fourCardFeature.svg",
         url: "https://preprince-fourcardfeature.netlify.com/",
@@ -52,8 +69,14 @@ export class ProjectService {
         url: "https://chamumutezva.github.io/Intro-component-with-sign-up-form/",
         notes: `Sign up form , i created using HTML, CSS and Javascript. Validation of
         user inputs and accessibility taken into consideration.`
+      },
+      {
+        name: "Manage Landing page",
+        image: "assets/images/ProjectImage/manage.jpg",
+        url: "https://chamumutezva.github.io/manage-landing-page-master/",
+        notes: `Manage - here is a list of what we do in helping to build world class projects. Check also 
+        out testimonial Section for feedbacks from some of our clients`
       }
-  
     ]
   }
 
