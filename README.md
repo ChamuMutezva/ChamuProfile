@@ -1,6 +1,10 @@
 # ChamuProfile
 ### https://chamuprofile2020.netlify.com/
-
+This site is a short introduction about myself , what i do and my plans for the future.
+The `contact page` provides the various social sites that i can be contacted on.
+The `projects page` is a brief description of projects that i have worked on
+with links for previewing.
+Lastly, the `about me` page is generally about as a Frontend developer.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.16.
 
 ## Development server
