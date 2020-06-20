@@ -8,6 +8,14 @@ export class ProjectService {
 
   getProjects(): ProjectModel[] {
     return  [
+     {
+      name: "Covid19 Statistics",
+      image: "assets/images/ProjectImage/covid19.svg",
+      url: "https://chamumutezva.github.io/Covid19-Stats/",
+      notes: `The Covid19 Statistics is a project that provides live updates of the current
+      Covid19 global pandemic. It was initiated to keep people informed and spread awareness. Among other 
+      things the information includes the total global figures as well as for individual countries. Stay safe `
+     },
       {
         name: "Easybank Landing page",
         image: "assets/images/ProjectImage/easybank.jpg", 
