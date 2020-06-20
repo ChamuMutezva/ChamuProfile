@@ -25,7 +25,9 @@ img:hover{
     opacity: 0.4;
 }
 h2 {
-    font-size: small;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: red;
 }
 
 h1 {
