@@ -3,10 +3,10 @@
         <h1>{{name}} </h1>
         <h2>I am a <span id="crossContent">Painter </span>Frontend web developer</h2>
     </div>
-<div class="profilePhoto">
     
-    <img sizes="(max-width: 480px) 100vw, (max-width: 814px) 75vw, 480px"
-        src="assets/images/profile_hp0oqg_c_scale,w_814.jpg" srcset="
+        <div class="profilePhoto">
+            <img sizes="(max-width: 480px) 100vw, (max-width: 814px) 75vw, 480px"
+                src="assets/images/profile_hp0oqg_c_scale,w_814.jpg" srcset="
     assets/images/profile_hp0oqg_c_scale,w_200.jpg 200w,
     assets/images/profile_hp0oqg_c_scale,w_292.jpg 292w,
     assets/images/profile_hp0oqg_c_scale,w_369.jpg 369w,
@@ -19,17 +19,18 @@
     assets/images/profile_hp0oqg_c_scale,w_785.jpg 785w,
     assets/images/profile_hp0oqg_c_scale,w_807.jpg 807w,
     assets/images/profile_hp0oqg_c_scale,w_814.jpg 814w" alt="My profile picture">
-</div>
-<div class="personalDetails">
-    <p>
-        I am a 'self taught' Frontend Web Developer on a continuous learning path. Comfortable
-        building websites including PWA using:        
+        </div>
+        <div class="personalDetails">
+            <p>
+                I am a 'self taught' Frontend Web Developer on a continuous learning path. Comfortable
+                building websites including PWA using:
 
-    </p>
-    <ul class="langTechs" class="languagesUsed" >
-        <li class="langUsed" *ngFor="let lang of languages">
-            {{lang}}
-        </li>
-    </ul>
-</div>
+            </p>
+            <ul class="langTechs" class="languagesUsed">
+                <li class="langUsed" *ngFor="let lang of languages">
+                    {{lang}}
+                </li>
+            </ul>
+        </div>
+    
 </div>
