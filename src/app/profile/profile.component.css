@@ -35,6 +35,8 @@ ul.languagesUsed {
     text-align: center;
     font-size: 24px;
     list-style: none;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
 }
 .profilePhoto {
     width: 100%;
