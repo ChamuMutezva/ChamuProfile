@@ -17,11 +17,12 @@ a {
     font-size: large;
 }
 li a {
-    color: #FFEB3B;
+    color: #f5f3e3;
 }
 
 li a:hover {
-    color: #e5e6c9;
+    color: #bcbd9a;
+    opacity: 0.5;
 }
 
 nav {
