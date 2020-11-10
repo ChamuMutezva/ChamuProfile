@@ -37,8 +37,25 @@ export class ProjectService {
         url: "https://chamumutezva.github.io/book-marking-landing-page/",
         notes: `A basic landing page that i created using HTML, CSS and Javascript
         `
-      },
+      },      
       {
+        name: "Social Media Dashboard",
+        image: "assets/images/ProjectImage/switchboard.jpg",
+        url: "https://chamumutezva.github.io/social-media-dashboard-with-theme-switcher-master/",
+        notes: `A summary of your social activities. Facebook, Twitter, Instagram and Youtube at a glance.
+        An overview of the current day activities - views, likes , retweets e.tc. The project was created mainly
+        using HTML5, CSS3, Javascript, Flexbox , Grid and Sass`
+
+      }
+      ,     
+      {
+        name: "Myteam website page",
+        image: "assets/images/ProjectImage/myteam.svg",
+        url: "https://chamumutezva.github.io/my-team-website-design/",
+        notes: `A 3 page responsive website created using html, javascript and sass. The project contains
+        the main page, about page and contact page`
+      },
+     /* {
         name: "Url Shortener", 
         image: "assets/images/ProjectImage/urlShortener.png",
         url: "https://chamumutezva.github.io/url-shortening-api-master/",
@@ -54,30 +71,20 @@ export class ProjectService {
         `
       },
       {
-        name: "Social Media Dashboard",
-        image: "assets/images/ProjectImage/switchboard.jpg",
-        url: "https://chamumutezva.github.io/social-media-dashboard-with-theme-switcher-master/",
-        notes: `A summary of your social activities. Facebook, Twitter, Instagram and Youtube at a glance.
-        An overview of the current day activities - views, likes , retweets e.tc. The project was created mainly
-        using HTML5, CSS3, Javascript, Flexbox , Grid and Sass`
-
-      }
-      ,
-      {
-        name: "Four Card Feature Section",
-        image: "assets/images/ProjectImage/fourCardFeature.svg",
-        url: "https://preprince-fourcardfeature.netlify.com/",
-        notes: `This FourCardFeature project created using Flexbox, CSS,
-        HTML and Javascript
-        `
-      },
-      {
         name:  "Intro Component Sign up form",
         image: "assets/images/ProjectImage/introComp.png",
         url: "https://chamumutezva.github.io/Intro-component-with-sign-up-form/",
         notes: `Sign up form , i created using HTML, CSS and Javascript. Validation of
         user inputs and accessibility taken into consideration.`
       },
+       {
+        name: "Four Card Feature Section",
+        image: "assets/images/ProjectImage/fourCardFeature.svg",
+        url: "https://preprince-fourcardfeature.netlify.com/",
+        notes: `This FourCardFeature project created using Flexbox, CSS,
+        HTML and Javascript
+        `
+      },      
       {
         name: "Manage Landing page",
         image: "assets/images/ProjectImage/manage.jpg",
@@ -85,13 +92,7 @@ export class ProjectService {
         notes: `Manage - here is a list of what we do in helping to build world class projects. Check also 
         out testimonial Section for feedbacks from some of our clients`
       },
-      {
-        name: "Myteam website page",
-        image: "assets/images/ProjectImage/myteam.svg",
-        url: "https://chamumutezva.github.io/my-team-website-design/",
-        notes: `A 3 page responsive website created using html, javascript and sass. The project contains
-        the main page, about page and contact page`
-      }
+      */
     ]
   }
 
