@@ -84,6 +84,13 @@ export class ProjectService {
         url: "https://chamumutezva.github.io/manage-landing-page-master/",
         notes: `Manage - here is a list of what we do in helping to build world class projects. Check also 
         out testimonial Section for feedbacks from some of our clients`
+      },
+      {
+        name: "Myteam website page",
+        image: "assets/images/ProjectImage/myteam.svg",
+        url: "https://chamumutezva.github.io/my-team-website-design/",
+        notes: `A 3 page responsive website created using html, javascript and sass. The project contains
+        the main page, about page and contact page`
       }
     ]
   }
